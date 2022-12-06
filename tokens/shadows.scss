@@ -1,0 +1,16 @@
+/* i.e any object.  */
+$shadowShadowCentral: 0 0 10px 0 rgba(0,0,0,0.2);  
+/* i.e toggle
+ */
+$shadowShadowElement: 0 3px 8px 0 rgba(0,0,0,0.15), 0 3px 1px 0 rgba(0,0,0,0.06);  
+/* i.e pop over shadow  */
+$shadowShadowPopover: 0 6px 10px 0 rgba(0,0,0,0.2);  
+/* i.e card, modal, tooltips */
+$shadowShadowDefault: 3px 5px 10px 0 rgba(0,0,0,0.2);  
+/* i.e bottomSheet */
+$shadowShadowTop: 0 -6px 10px 0 rgba(0,0,0,0.2);  
+/* shadow left */
+$shadowShadowLeft: -3px 0 5px 0 rgba(0,0,0,0.05), -1px 0 2px 0 rgba(0,0,0,0.15);  
+/* i.e for toggle 
+ */
+$shadowShadowInner: inset -5px 0 8px 0 rgba(10,29,86,0.1), inset -2px 5px 5px 0 rgba(10,29,86,0.1);  
