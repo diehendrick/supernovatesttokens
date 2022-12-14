@@ -2,120 +2,130 @@
 .typographyDisplayHuge 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 800;
-  font-size: 42px;
-  line-height: 48px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsize5xl;
+  line-height: $measureLineHeightLineheights7xl;
+  letter-spacing: $measureLetterSpacingLetterspacingXxsm;
+  
   text-indent: 0px; 
 }    
 
 .typographyDisplayLarge 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 800;
-  font-size: 36px;
-  line-height: 42px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsize4xl;
+  line-height: $measureLineHeightLineheights6xl;
+  letter-spacing: $measureLetterSpacingLetterspacingXxsm;
+  
   text-indent: 0px; 
 }    
 
 .typographyDisplaySmall 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 36px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsize3xl;
+  line-height: $measureLineHeightLineheights5xl;
+  letter-spacing: $measureLetterSpacingLetterspacingXxsm;
+  
   text-indent: 0px; 
 }    
 
 .typographyDisplayTiny 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 30px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeXxl;
+  line-height: $measureLineHeightLineheights4xl;
+  letter-spacing: $measureLetterSpacingLetterspacingXxsm;
+  
   text-indent: 0px; 
 }    
 
 .typographyHeadingH1 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 30px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeXxl;
+  line-height: $measureLineHeightLineheights4xl;
+  letter-spacing: $measureLetterSpacingLetterspacingXsm;
+  
   text-indent: 0px; 
 }    
 
 .typographyHeadingH2 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeXl;
+  line-height: $measureLineHeightLineheights3xl;
+  letter-spacing: $measureLetterSpacingLetterspacingXsm;
+  
   text-indent: 0px; 
 }    
 
 .typographyHeadingH3 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeLg;
+  line-height: $measureLineHeightLineheightsXxl;
+  letter-spacing: $measureLetterSpacingLetterspacingXsm;
+  
   text-indent: 0px; 
 }    
 
 .typographyHeadingH4 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeMd;
+  line-height: $measureLineHeightLineheightsXl;
+  letter-spacing: $measureLetterSpacingLetterspacingXsm;
+  
   text-indent: 0px; 
 }    
 
 .typographyHeadingH5 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeSm;
+  line-height: $measureLineHeightLineheightsMd;
+  letter-spacing: $measureLetterSpacingLetterspacingXsm;
+  
   text-indent: 0px; 
 }    
 
 .typographyHeadingH6 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: -0.02em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeXsm;
+  line-height: $measureLineHeightLineheightsSm;
+  letter-spacing: $measureLetterSpacingLetterspacingXsm;
+  
   text-indent: 0px; 
 }    
 
@@ -123,12 +133,13 @@
 .typographyBodyLargestrong 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeLg;
+  line-height: $measureLineHeightLineheightsXl;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
@@ -136,12 +147,13 @@
 .typographyBodyLarge 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeLg;
+  line-height: $measureLineHeightLineheightsXl;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
@@ -149,12 +161,13 @@
 .typographyBodyDefaultstrong 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeMd;
+  line-height: $measureLineHeightLineheightsLg;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
@@ -162,24 +175,26 @@
 .typographyBodyDefault 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeMd;
+  line-height: $measureLineHeightLineheightsLg;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 .typographyBodySmallstrong 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeSm;
+  line-height: $measureLineHeightLineheightsMd;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
@@ -187,24 +202,26 @@
 .typographyBodySmall 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeSm;
+  line-height: $measureLineHeightLineheightsMd;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 .typographyBodyTinystrong 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: 0em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeXsm;
+  line-height: $measureLineHeightLineheightsSm;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
@@ -212,216 +229,234 @@
 .typographyBodyTiny 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeXsm;
+  line-height: $measureLineHeightLineheightsSm;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 .typographyParagraphLarge 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeLg;
+  line-height: $measureLineHeightLineheightsXxl;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 .typographyParagraphDefault 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeMd;
+  line-height: $measureLineHeightLineheightsXl;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 .typographyParagraphSmall 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeSm;
+  line-height: $measureLineHeightLineheightsLg;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 .typographyParagraphTiny 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeXsm;
+  line-height: $measureLineHeightLineheightsSm;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 .typographyCaptionDefault 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeSm;
+  line-height: $measureLineHeightLineheightsMd;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 .typographyCaptionSmall 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeXsm;
+  line-height: $measureLineHeightLineheightsXsm;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 .typographyCaptionTiny 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeXxsm;
+  line-height: $measureLineHeightLineheightsXxxsm;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyDisplayHuge 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 800;
-  font-size: 42px;
-  line-height: 48px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsize5xl;
+  line-height: $measureLineHeightLineheights7xl;
+  letter-spacing: $measureLetterSpacingLetterspacingXxsm;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyDisplayLarge 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 800;
-  font-size: 36px;
-  line-height: 42px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsize4xl;
+  line-height: $measureLineHeightLineheights6xl;
+  letter-spacing: $measureLetterSpacingLetterspacingXxsm;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyDisplaySmall 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 36px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsize3xl;
+  line-height: $measureLineHeightLineheights5xl;
+  letter-spacing: $measureLetterSpacingLetterspacingXxsm;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyDisplayTiny 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 30px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeXxl;
+  line-height: $measureLineHeightLineheights4xl;
+  letter-spacing: $measureLetterSpacingLetterspacingXxsm;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyHeadingH1 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 30px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeXxl;
+  line-height: $measureLineHeightLineheights4xl;
+  letter-spacing: $measureLetterSpacingLetterspacingXsm;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyHeadingH2 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeXl;
+  line-height: $measureLineHeightLineheights3xl;
+  letter-spacing: $measureLetterSpacingLetterspacingXsm;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyHeadingH3 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeLg;
+  line-height: $measureLineHeightLineheightsXxl;
+  letter-spacing: $measureLetterSpacingLetterspacingXsm;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyHeadingH4 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeMd;
+  line-height: $measureLineHeightLineheightsXl;
+  letter-spacing: $measureLetterSpacingLetterspacingXsm;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyHeadingH5 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: -0.01em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeSm;
+  line-height: $measureLineHeightLineheightsMd;
+  letter-spacing: $measureLetterSpacingLetterspacingXsm;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyHeadingH6 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: -0.02em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeXsm;
+  line-height: $measureLineHeightLineheightsSm;
+  letter-spacing: $measureLetterSpacingLetterspacingXsm;
+  
   text-indent: 0px; 
 }    
 
@@ -429,12 +464,13 @@
 @mixin typographyBodyLargestrong 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeLg;
+  line-height: $measureLineHeightLineheightsXl;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
@@ -442,12 +478,13 @@
 @mixin typographyBodyLarge 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeLg;
+  line-height: $measureLineHeightLineheightsXl;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
@@ -455,12 +492,13 @@
 @mixin typographyBodyDefaultstrong 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeMd;
+  line-height: $measureLineHeightLineheightsLg;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
@@ -468,24 +506,26 @@
 @mixin typographyBodyDefault 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeMd;
+  line-height: $measureLineHeightLineheightsLg;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyBodySmallstrong 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeSm;
+  line-height: $measureLineHeightLineheightsMd;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
@@ -493,24 +533,26 @@
 @mixin typographyBodySmall 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeSm;
+  line-height: $measureLineHeightLineheightsMd;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyBodyTinystrong 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: 0em; 
+  font-weight: 400;
+  font-size: $measureFontSizeFontsizeXsm;
+  line-height: $measureLineHeightLineheightsSm;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
@@ -518,96 +560,104 @@
 @mixin typographyBodyTiny 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeXsm;
+  line-height: $measureLineHeightLineheightsSm;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyParagraphLarge 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeLg;
+  line-height: $measureLineHeightLineheightsXxl;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyParagraphDefault 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeMd;
+  line-height: $measureLineHeightLineheightsXl;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyParagraphSmall 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeSm;
+  line-height: $measureLineHeightLineheightsLg;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyParagraphTiny 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeXsm;
+  line-height: $measureLineHeightLineheightsSm;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyCaptionDefault 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeSm;
+  line-height: $measureLineHeightLineheightsMd;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyCaptionSmall 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeXsm;
+  line-height: $measureLineHeightLineheightsXsm;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
 @mixin typographyCaptionTiny 
 { 
   
-  font-family: "Inter";
+  font-family: "{fontFamilies.inter}";
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
-  letter-spacing: 0em; 
+  font-size: $measureFontSizeFontsizeXxsm;
+  line-height: $measureLineHeightLineheightsXxxsm;
+  letter-spacing: $measureLetterSpacingLetterspacingMd;
+  
   text-indent: 0px; 
 }    
 
